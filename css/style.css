@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Hind&family=Sacramento&family=Satisfy&display=swap');
+
+
+body {
+    margin: 0;
+    margin-top: 0px;
+    background-color: #191825;
+}
+
+.topper {
+    background-image: url(../images/Food+Photo+Background.jpg); 
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0%;
+}
+
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    z-index: 1;
+
+    border-radius: 10px;
+}
+
+
+.topper .navigation a {
+
+    font-family: 'Hind';
+    color: #635985;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+ 
+}
+.navigation a:hover{
+    transform: scale(1.2);
+}
+
+
+.welcome h1{
+    text-align: center;
+    color: #81779f;
+    margin-top: 0px;
+    position: relative;
+    top: 300px;
+    font-family: 'Satisfy';
+    font-size: 5rem;
+    z-index: 1;
+}
+
+.welcome p{
+
+    color: whitesmoke;
+    font-family: Sacramento;
+    font-size: 4.5rem;
+    position: relative;
+    margin-top: 0px;
+    top: 180px;
+    text-align: center;
+    margin-right: 0px;
+    
+}
+
+#Menu h2{
+    color: #49505c;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Alata;
+    margin-top: 70px;
+}
+
+#Menu h3{
+    font-family: Hind;
+    color: whitesmoke;
+    font-size: 1.5rem;
+
+}
+.items{
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.item-1{
+    position: relative;
+    left: 50px;
+    flex-direction: row;
+}
+
+.item-1 img{
+    border-radius: 10px;
+}
+
+.item-2{
+    position: relative;
+    left: 50px;
+    flex-direction: row;
+}
+
+.item-2 img{
+    border-radius: 10px;
+}
+.item-3{
+    position: relative;
+    left: 50px;
+    flex-direction: row;
+}
+
+.item-3 img{
+    border-radius: 10px;
+}
+.item-4{
+    position: relative;
+    left: 50px;
+    flex-direction: row;
+}
+
+.item-4 img{
+    border-radius: 10px;
+}
+
+
+#About h2{
+    color: #49505c;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Alata;
+    margin-top: 70px;
+    margin-bottom: 60px;
+
+}
+
+#About p{
+    font-family: 'Hind';
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.decorated-hr {
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background-position: center;
+    background-size: 200% 2px;
+    transition: background-position 0.3s ease-in-out;
+    margin: 20px 0;
+  }
+  
+  .decorated-hr:hover {
+    background-position: center right;
+  }
+
+  #contact{
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #Contact h2{
+    color: #49505c;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Alata;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+#Contact p,a{
+    font-family: 'Hind';
+    color: #635985;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;  
+ 
+}
+
+.copyright{
+    font-family: 'Hind';
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
